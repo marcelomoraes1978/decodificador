@@ -22,4 +22,4 @@ Este é um projeto de um site que permite criptografar e descriptografar texto u
 1. **Clonar o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/marcelomoraes1978/decodificador.git
