@@ -10,17 +10,20 @@
     <canvas id="background-canvas"></canvas>
     <div class="container">
         <h1>Decodificador de Texto</h1>
-        <button id="tema">Alternar Tema (Claro/Escuro)</button> <!-- Botão para alternar tema -->
+        <button id="tema">Alternar Tema (Claro/Escuro)</button>
         <textarea id="entrada-texto" placeholder="Digite o texto aqui..."></textarea>
+        <p id="aviso-input">Apenas letras minúsculas e espaços são permitidos.</p> <!-- Mensagem de alerta -->
         <div class="buttons">
             <button id="botao-crip">Criptografar</button>
             <button id="botao-descrip">Descriptografar</button>
         </div>
         <textarea id="saida-texto" readonly placeholder="Resultado aparecerá aqui..."></textarea>
         <button id="botao-copiar">Copiar</button>
+        <footer>
+            <p>Desenvolvido por Marcelo Moraes &copy; 2024</p>
+        </footer>
     </div>
     <script src="app.js"></script>
     <script src="particles.js"></script>
 </body>
 </html>
-

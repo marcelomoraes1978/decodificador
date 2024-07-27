@@ -60,4 +60,3 @@ function animate() {
 
 init();
 animate();
-

@@ -1,3 +1,8 @@
+document.getElementById('entrada-texto').addEventListener('input', function(event) {
+    // Remove caracteres que não são letras minúsculas ou espaços
+    this.value = this.value.replace(/[^a-z\s]/g, '');
+});
+
 document.getElementById('botao-crip').addEventListener('click', criptografarTexto);
 document.getElementById('botao-descrip').addEventListener('click', descriptografarTexto);
 document.getElementById('botao-copiar').addEventListener('click', copiarTexto);
@@ -35,5 +40,3 @@ function copiarTexto() {
 function alternarTema() {
     document.body.classList.toggle('dark-mode');
 }
-
-
